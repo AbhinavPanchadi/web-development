@@ -1,0 +1,12 @@
+.top-frame {
+  height: 20vh;
+  width: auto;
+  background-color: silver;
+  padding: 10px;
+  border-radius: 6px;
+}
+.tflogo {
+border-radius: 4px;
+  height: 20vh;
+  width: auto;
+}

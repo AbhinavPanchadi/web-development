@@ -1,12 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.total-page {
+  display: flex;
+  flex: column;
+}
+.left-panel {
+  width: 25vh;
+  height: 90vh;
+  background-color: lightblue;
+  padding: 20px;
+}
+.right-panel {
+  width: 200vh;
+  height: auto;
+}
 .top-frame {
-  height: 20vh;
-  width: auto;
+  display: flex;
+  flex: column;
   background-color: silver;
   padding: 10px;
-  border-radius: 6px;
 }
 .tflogo {
-border-radius: 4px;
-  height: 20vh;
+  border-radius: 4px;
+  height: 15vh;
   width: auto;
+  margin-right: 30px;
+}
+.tfheading {
+  font-size: 50px;
+  font-family: "Roboto";
+  margin: 10px;
+}
+
+.reg-btns {
+  margin: auto;
+}
+.login-btn {
+  height: 36px;
+  width: 70px;
+  margin-right: 10px;
+  color: white;
+  background-color: lightskyblue;
+  border: 0px;
+  border-radius: 6px;
+}
+.signup-btn {
+  height: 36px;
+  width: 70px;
+  color: lightblue;
+  background-color: white;
+  border: 0px;
+  border-radius: 6px;
+}
+.home-btn {
+  height: 36px;
+  width: 70px;
+  margin-right: 10px;
+  color: white;
+  background-color: lightskyblue;
+  border: 0px;
+  border-radius: 6px;
+}
+.cat-btn {
+  width: 70px;
+  color: lightblue;
+  background-color: white;
+  border: 0px;
+  border-radius: 6px;
+}
+.panel-btns {
+  display: flex;
+  flex: row;
 }

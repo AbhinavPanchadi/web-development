@@ -1,74 +1,50 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
-
-.total-page {
+.frame-1 {
+  display: grid;
+}
+.frame-2 {
   display: flex;
-  flex: column;
 }
-.left-panel {
-  width: 25vh;
-  height: 90vh;
-  background-color: lightblue;
-  padding: 20px;
+button {
+  cursor: pointer;
+  height: 40px;
+  width: 70px;
 }
-.right-panel {
-  width: 200vh;
-  height: auto;
+body {
+  background-color: darkblue;
 }
-.top-frame {
-  display: flex;
-  flex: column;
-  background-color: silver;
+.college-logo {
+  height: 100px;
+  margin: 20px;
+}
+.top-navbar {
+  background-color: white;
+  height: 20vh;
   padding: 10px;
-}
-.tflogo {
-  border-radius: 4px;
-  height: 15vh;
+  font-family: "Bree serif";
   width: auto;
-  margin-right: 30px;
-}
-.tfheading {
-  font-size: 50px;
-  font-family: "Roboto";
-  margin: 10px;
-}
-
-.reg-btns {
-  margin: auto;
-}
-.login-btn {
-  height: 36px;
-  width: 70px;
-  margin-right: 10px;
-  color: white;
-  background-color: lightskyblue;
-  border: 0px;
-  border-radius: 6px;
-}
-.signup-btn {
-  height: 36px;
-  width: 70px;
-  color: lightblue;
-  background-color: white;
-  border: 0px;
-  border-radius: 6px;
-}
-.home-btn {
-  height: 36px;
-  width: 70px;
-  margin-right: 10px;
-  color: white;
-  background-color: lightskyblue;
-  border: 0px;
-  border-radius: 6px;
-}
-.cat-btn {
-  width: 70px;
-  color: lightblue;
-  background-color: white;
-  border: 0px;
-  border-radius: 6px;
-}
-.panel-btns {
   display: flex;
-  flex: row;
+}
+.top-buttons {
+  margin-left: 500px;
+  margin-top: 20px;
+}
+.left-navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  width: 30vh;
+  height: 75vh;
+}
+.viewspace {
+  background-color: lightskyblue;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.book-shelf{
+  font-family: "Bree serif";
 }

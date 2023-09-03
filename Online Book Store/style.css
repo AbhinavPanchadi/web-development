@@ -36,24 +36,16 @@ body {
   justify-content: center;
   background-color: whitesmoke;
   width: 30vh;
-  height: 75vh;
+  height: 70vh;
 }
 .viewspace {
-  background-color: lightskyblue;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: "Bree serif";
-}
-.book-shelf{
-  font-family: "Bree serif";
-}
-.viewspace-login {
   background-color: lightskyblue;
   width: 100%;
   padding: 50px;
   align-items: center;
   justify-content: center;
+  font-family: "Bree serif";
+}
+.book-shelf {
   font-family: "Bree serif";
 }

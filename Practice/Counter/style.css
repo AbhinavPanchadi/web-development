@@ -29,10 +29,11 @@
 }
 .btn-style:active {
   background-color: aquamarine;
-  color: black;
+  color: black !important;
 }
 .btn-style:hover {
   box-shadow: 1px 1px 75px aquamarine;
+  color: aquamarine;
 }
 #counter-number {
   font-size: 50px;
